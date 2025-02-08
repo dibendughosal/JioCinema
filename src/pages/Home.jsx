@@ -1,13 +1,19 @@
-import Header from '../component/Header';
-import Tags from '../component/Tags';
-import Channels from '../component/Channels';
+import Header from '../component/Header'
+import Tags from '../component/Tags'
+import Channels from '../component/Channels'
+import Carousel from '../component/Crousel'
+import Featured from '../component/Featured'
+import Hero1 from '../component/Hero1'
 function Home() {
   return (
-    <div>
+    <>
       <Header/>
       <Tags/>
+      <Carousel/>
       <Channels/>
-    </div>
+      <Hero1/>
+      <Featured/>
+    </>
   )
 }
 
